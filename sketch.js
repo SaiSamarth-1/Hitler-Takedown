@@ -191,7 +191,7 @@ function crateGen(){
   bulletCrates = createSprite(randomX,randomY,30,30);
   bulletCrates.addImage(bulletCrateImage);
   bulletCrates.scale = 0.5
-  bulletCrates.lifetime = 100;
+  bulletCrates.lifetime = 500;
   bulletCratesGroup.add(bulletCrates);
 }
 
