@@ -228,7 +228,7 @@ function nazi(){
     megaNaziBulletGroup.add(megaNaziBullet);
   }
 
-  if(maZi < 11 && maZi > 9){
+  if(maZi == 0){
     hitler = createSprite(windowWidth-150, windowHeight/2);
     hitler.addImage(hitlerImage);
     hitler.scale=3;
